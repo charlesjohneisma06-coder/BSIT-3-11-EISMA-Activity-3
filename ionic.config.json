@@ -1,0 +1,7 @@
+{
+  "name": "CJEismaBSIT311",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

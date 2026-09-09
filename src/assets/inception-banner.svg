@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#07152f"/>
+      <stop offset="100%" stop-color="#17395f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <circle cx="140" cy="120" r="80" fill="#6ad6ff" opacity="0.7"/>
+  <circle cx="650" cy="105" r="95" fill="#1b9aaa" opacity="0.6"/>
+  <path d="M0 310C100 250 170 250 260 285S430 330 520 280 700 220 800 298V400H0Z" fill="#0d1b2a" opacity="0.8"/>
+  <text x="60" y="210" fill="#ffffff" font-size="54" font-family="Arial, Helvetica, sans-serif" font-weight="700">INCEPTION</text>
+</svg>

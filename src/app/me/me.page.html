@@ -1,0 +1,29 @@
+<ion-content class="ion-padding">
+  <div class="profile-card">
+    <div class="avatar-wrapper">
+      <img [src]="student.image" [alt]="student.name" />
+    </div>
+
+    <div class="detail-list">
+      <div class="detail-row">
+        <label>Name</label>
+        <span>{{ student.name }}</span>
+      </div>
+
+      <div class="detail-row">
+        <label>Username</label>
+        <span>{{ student.username }}</span>
+      </div>
+
+      <div class="detail-row">
+        <label>Email</label>
+        <span>{{ student.email }}</span>
+      </div>
+
+      <div class="detail-row">
+        <label>Address</label>
+        <span>{{ student.address }}</span>
+      </div>
+    </div>
+  </div>
+</ion-content>

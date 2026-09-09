@@ -1,0 +1,68 @@
+:host {
+  display: block;
+  background: #0d0d0d;
+}
+
+.movie-detail-page {
+  --background: #0d0d0d;
+  color: #ffffff;
+}
+
+.detail-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 14px 16px;
+  background: rgba(13, 13, 13, 0.7);
+  backdrop-filter: blur(8px);
+}
+
+.exit-button {
+  --color: #ffffff;
+  --background: rgba(255, 255, 255, 0.08);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.detail-banner {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.detail-content {
+  padding: 20px 16px 32px;
+}
+
+.detail-content h1 {
+  margin: 0 0 12px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.detail-content p {
+  margin: 0 0 20px;
+  color: #d7d7d7;
+  line-height: 1.6;
+}
+
+.detail-content h3 {
+  margin: 0 0 14px;
+  font-size: 1.2rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}

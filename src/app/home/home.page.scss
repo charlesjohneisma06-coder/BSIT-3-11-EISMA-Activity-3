@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  background: #0d0d0d;
+}
+
+.home-page {
+  --background: #0d0d0d;
+}
+
+.home-shell {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 18px;
+  color: #ffffff;
+}
+
+.home-shell h1 {
+  margin: 0 0 18px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.search-hint {
+  margin: 12px 0 0;
+  color: #c7c7c7;
+  text-align: center;
+}

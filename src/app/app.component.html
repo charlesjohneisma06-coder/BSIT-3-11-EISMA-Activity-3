@@ -1,0 +1,25 @@
+<ion-app>
+  <ion-router-outlet></ion-router-outlet>
+
+  <ion-footer>
+    <ion-toolbar>
+      <div class="bottom-nav">
+        
+        <ion-button fill="clear" routerLink="/movies" routerLinkActive="selected">
+          <ion-icon name="film-outline" slot="top"></ion-icon>
+          <span>Movies</span>
+        </ion-button>
+
+        <ion-button fill="clear" routerLink="/home" routerLinkActive="selected">
+          <ion-icon name="home-outline" slot="top"></ion-icon>
+          <span>Home</span>
+        </ion-button>
+
+        <ion-button fill="clear" routerLink="/me" routerLinkActive="selected">
+          <ion-icon name="person-outline" slot="top"></ion-icon>
+          <span>Me</span>
+        </ion-button>
+      </div>
+    </ion-toolbar>
+  </ion-footer>
+</ion-app>

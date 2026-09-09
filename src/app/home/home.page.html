@@ -1,0 +1,10 @@
+<ion-content class="home-page">
+  <div class="home-shell">
+    <ion-searchbar
+      [(ngModel)]="searchTerm"
+      (ionInput)="onSearchChange($event)"
+      placeholder="SEARCH MOVIE">
+    </ion-searchbar>
+    <p class="search-hint">Search your favorite movies</p>
+  </div>
+</ion-content>

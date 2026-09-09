@@ -1,0 +1,21 @@
+<ion-content class="ion-padding movie-page">
+  <div class="section-header">
+    <h2>Featured Movies</h2>
+  </div>
+
+  <div class="movie-list" *ngIf="movies.length; else noMovies">
+    <ion-card *ngFor="let movie of movies" [routerLink]="['/movie-detail', movie.id]" button>
+      <img [src]="movie.banner" [alt]="movie.title" />
+      <ion-card-header>
+        <ion-card-title>{{ movie.title }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{ movie.synopsis }}
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <ng-template #noMovies>
+    <p class="empty-state">No movies available.</p>
+  </ng-template>
+</ion-content>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#1a1a1a"/>
+  <circle cx="150" cy="108" r="52" fill="#d9d9d9"/>
+  <path d="M62 260C80 214 116 188 150 188C184 188 220 214 238 260" fill="#d9d9d9"/>
+  <text x="150" y="290" text-anchor="middle" font-size="38" font-family="Arial, Helvetica, sans-serif" fill="#1a1a1a" font-weight="700">CJE</text>
+</svg>

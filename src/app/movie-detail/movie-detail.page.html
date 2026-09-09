@@ -1,0 +1,19 @@
+<ion-content class="movie-detail-page" *ngIf="movie">
+  <div class="detail-topbar">
+    <ion-button fill="clear" class="exit-button" (click)="goBack()">
+      <ion-icon name="close-outline" slot="icon-only"></ion-icon>
+    </ion-button>
+  </div>
+
+  <img class="detail-banner" [src]="movie.banner" [alt]="movie.title" />
+
+  <div class="detail-content">
+    <h1>{{ movie.title }}</h1>
+    <p>{{ movie.synopsis }}</p>
+
+    <h3>Gallery</h3>
+    <div class="gallery-grid">
+      <img *ngFor="let image of movie.gallery" [src]="image" [alt]="movie.title + ' still'" />
+    </div>
+  </div>
+</ion-content>
